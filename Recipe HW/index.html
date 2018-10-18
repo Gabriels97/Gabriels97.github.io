@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes</title>
+</head>
+<body>
+
+	<style>
+		
+		body {
+			background-color: lightblue;
+		}
+
+		#menu {
+			width: 100%;
+			background-color: lightcoral;
+			padding: 25px;
+		}
+
+		ul {
+			list-style-type: none;
+			text-align: center;
+		}
+
+		li {
+			display: inline-block;
+			margin-right: 160px;
+			font-size: 60px;
+			font-family: 'helvetica', san-serif;
+			color: white;
+		}
+
+		.active {
+			color: lightblue;
+
+		}
+
+		h1 {
+			font-size: 40px;
+			color: lightcoral;
+			margin-left: 20px;
+		}
+
+		p {
+			font-size: 20px;
+			color: teal;
+			margin-left: 20px;
+		}
+
+		.hide { display: none; }
+
+		.Recipe-info { display: none; }
+
+
+	</style>
+
+
+
+<div id="menu">
+<ul class="list">
+	
+	<li class="list__item">Recipe1</li>
+
+	<li class="list__item">Recipe2</li>
+	
+	<li class="list__item">Recipe3</li>
+
+</ul>
+
+<ul class="Recipe 1 sublist hide">
+	
+	<li class="sublist__item" data-type="ingredients">Ingredients</li>
+			
+	<li class="sublist__item" data-type="directions">Directions</li>
+			
+	<li class="sublist__item" data-type="result">Result</li>
+		
+	</ul>
+</div>
+
+	<div class="Recipe 1-info Ingredients">
+
+		<h1> Ingredients </h1>
+
+	<p>		
+Canola oil, for frying <br><br>
+
+24 chicken wing parts (12 wings separated into 2 pieces) <br><br>
+
+One 12-ounce bottle of cayenne hot pepper sauce, such as Frank's <br><br>
+
+1 stick of butter <br><br>
+
+Several dashes of Worcestershire sauce <br><br>
+
+Several dashes of hot sauce, such as Tabasco <br><br>
+
+Blue cheese dip, for serving <br><br>
+
+Celery sticks, for serving <br><br>
+
+		</p>
+
+	</div>
+
+
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
