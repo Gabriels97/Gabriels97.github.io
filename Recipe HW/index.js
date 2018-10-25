@@ -7,14 +7,14 @@ $(document).ready(function () {
 		if ($target.text() === 'Recipe1') {
 			$('.Recipe1.sublist').slideToggle(500);
 		} else {
-			$('.Recipe.sublist').slideUp(500);
+			$('.Recipe1.sublist').slideUp(500);
 		}
 	});
 
 	var $submenu = $('li.sublist__item');
 
 	$submenu.on('click', function(e) {
-		$('.ingredients-info').hide();
+		$('.Recipe1-info').hide();
 
 		var $target = $(e.target);
 

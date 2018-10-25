@@ -10,18 +10,15 @@
 		body {
 			background-color: lightblue;
 		}
-
 		#menu {
 			width: 100%;
 			background-color: lightcoral;
 			padding: 25px;
 		}
-
 		ul {
 			list-style-type: none;
 			text-align: center;
 		}
-
 		li {
 			display: inline-block;
 			margin-right: 160px;
@@ -29,13 +26,41 @@
 			font-family: 'helvetica', san-serif;
 			color: white;
 		}
-
 		.active {
 			color: lightblue;
-
+			text-decoration: underline;
 		}
 
+		.list__item {
+  			display: inline-block;
+  			margin-right: 50px;
+  			font-size: 60px;
+  			color: white;
+  		}
+
+		.sublist {
+  			position: absolute;
+  			left: 250px;
+  			top: 143px;
+  			width: 25%;
+  			background-color: lightblue;
+  			padding: 20px;
+  			text-align: center;
+  			z-index: 1;
+  		}
+
+  		.sublist__item {
+  			color: black;
+  			font-size: 25px;
+	  	}
+
 		h1 {
+			font-size: 40px;
+			color: lightcoral;
+			margin-left: 20px;
+		}
+
+		h2 {
 			font-size: 40px;
 			color: lightcoral;
 			margin-left: 20px;
@@ -46,11 +71,13 @@
 			color: teal;
 			margin-left: 20px;
 		}
-
 		.hide { display: none; }
+		
+		.Recipe1-info { display: none; }
 
-		.Recipe-info { display: none; }
+		.Recipe2-info { display: none; }
 
+		.Recipe3-info { display: none; }
 
 	</style>
 
@@ -67,7 +94,7 @@
 
 </ul>
 
-<ul class="Recipe 1 sublist hide">
+<ul class="recipe1 sublist hide">
 	
 	<li class="sublist__item" data-type="ingredients">Ingredients</li>
 			
@@ -78,7 +105,7 @@
 	</ul>
 </div>
 
-	<div class="Recipe 1-info Ingredients">
+	<div class="recipe1-info ingredients">
 
 		<h1> Ingredients </h1>
 
@@ -102,6 +129,50 @@ Celery sticks, for serving <br><br>
 		</p>
 
 	</div>
+
+<div class="recipe1-info directions">
+	 <h2>Directions</h2>
+
+<p>
+	Preheat the oven to 325 degrees F. Heat 3 inches of canola oil in a heavy pot to 375 degrees F.<br> 
+Add half the chicken wing parts to the oil and fry them until they're golden brown and fully cooked, 5 to 7 minutes. <br> 
+Remove and drain on paper towels. Repeat with the other half of the wing parts. In a saucepan, heat the cayenne sauce and butter over medium-low heat. <br>
+Add the Worcestershire and hot sauce. Let it bubble up, and then turn off the heat. <br> Place the wings in an ovenproof dish and pour the hot sauce over the top. Toss to coat, and then bake in the oven for 15 minutes. <br>  
+Serve with blue cheese dip, celery sticks... and your favorite cold, fizzy beverage.
+
+</p>
+
+	</div>
+
+<div class="Recipe2-info ingredients">
+
+	<h1>Ingredients</h1>
+
+	<p> Paragraph </p>
+
+</div>
+
+<div class="Recipe2-info directions">
+
+	<h2>Directions</h2>
+
+	<p>Paragraph</p>
+
+</div>
+
+<div class="Recipe3-info ingredients">
+
+	<h1>Ingredients</h1>
+
+	<p>Paragraph</p>
+
+<div class="Recipe3-info directions">
+
+	<h2>Directions</h2>
+
+	<p>Paragraph</p>
+
+</div>
 
 
 
