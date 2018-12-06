@@ -1,0 +1,29 @@
+body {
+	background-color: #D9D4CC;
+	}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	}
+
+li {
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	}
+
+a{
+		color: white;
+	}
+
+.list{
+		background-color: black;
+	}
+
+#Holder {
+	width: 100%;
+	text-align: center;
+	}
